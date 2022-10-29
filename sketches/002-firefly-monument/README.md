@@ -1,4 +1,4 @@
-# 0002 - Firefly Monument
+# 002 - Firefly Monument
 
 First shot at shadergraph, visual effects graph, bolt and archimatrix, all rolled in to one.
 

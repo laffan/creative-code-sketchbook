@@ -1,0 +1,2105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Animation Current Time</key>
+	<real>0.0</real>
+	<key>Animation Duration</key>
+	<real>5</real>
+	<key>Animation FPS</key>
+	<real>30</real>
+	<key>Animation Loops</key>
+	<true/>
+	<key>Connections</key>
+	<array>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ElementShapeNode</string>
+			<key>From node id</key>
+			<string>48</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ChangeTransformNode</string>
+			<key>To node id</key>
+			<string>215</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ElementShapeNode</string>
+			<key>From node id</key>
+			<string>213</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ChangeTransformNode</string>
+			<key>To node id</key>
+			<string>215</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>GroupMergeNode</string>
+			<key>From node id</key>
+			<string>242</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>RepeatGridNode</string>
+			<key>To node id</key>
+			<string>4</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Color</string>
+			<key>From node class</key>
+			<string>ColorListNode</string>
+			<key>From node id</key>
+			<string>216</string>
+			<key>From socket parameter</key>
+			<string>Color</string>
+			<key>To node class</key>
+			<string>ColorListNode</string>
+			<key>To node id</key>
+			<string>221</string>
+			<key>To socket parameter</key>
+			<string>Color 0</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ChangeAlignNode</string>
+			<key>From node id</key>
+			<string>230</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ArtboardNode</string>
+			<key>To node id</key>
+			<string>1</string>
+			<key>To socket parameter</key>
+			<string>OutputLayer2</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ChangeTransformNode</string>
+			<key>From node id</key>
+			<string>215</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ChangeTransformNode</string>
+			<key>To node id</key>
+			<string>223</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueRandomNode</string>
+			<key>From node id</key>
+			<string>224</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ChangeTransformNode</string>
+			<key>To node id</key>
+			<string>223</string>
+			<key>To socket parameter</key>
+			<string>Angle</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueNode</string>
+			<key>From node id</key>
+			<string>225</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>48</string>
+			<key>To socket parameter</key>
+			<string>Size</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueNode</string>
+			<key>From node id</key>
+			<string>225</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>213</string>
+			<key>To socket parameter</key>
+			<string>Size</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Color</string>
+			<key>From node class</key>
+			<string>ColorListNode</string>
+			<key>From node id</key>
+			<string>217</string>
+			<key>From socket parameter</key>
+			<string>Color</string>
+			<key>To node class</key>
+			<string>ColorListNode</string>
+			<key>To node id</key>
+			<string>221</string>
+			<key>To socket parameter</key>
+			<string>Color 1</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Color</string>
+			<key>From node class</key>
+			<string>ColorListNode</string>
+			<key>From node id</key>
+			<string>221</string>
+			<key>From socket parameter</key>
+			<string>Color 1</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>213</string>
+			<key>To socket parameter</key>
+			<string>Fill Color</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Color</string>
+			<key>From node class</key>
+			<string>ColorListNode</string>
+			<key>From node id</key>
+			<string>221</string>
+			<key>From socket parameter</key>
+			<string>Color 0</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>48</string>
+			<key>To socket parameter</key>
+			<string>Fill Color</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueRandomNode</string>
+			<key>From node id</key>
+			<string>229</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ColorListNode</string>
+			<key>To node id</key>
+			<string>216</string>
+			<key>To socket parameter</key>
+			<string>Value</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueRandomNode</string>
+			<key>From node id</key>
+			<string>229</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ColorListNode</string>
+			<key>To node id</key>
+			<string>217</string>
+			<key>To socket parameter</key>
+			<string>Value</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>RepeatGridNode</string>
+			<key>From node id</key>
+			<string>4</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>GroupSelectNode</string>
+			<key>To node id</key>
+			<string>231</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>GroupSelectNode</string>
+			<key>From node id</key>
+			<string>231</string>
+			<key>From socket parameter</key>
+			<string>A</string>
+			<key>To node class</key>
+			<string>ChangeReplaceNode</string>
+			<key>To node id</key>
+			<string>245</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>RepeatGridNode</string>
+			<key>From node id</key>
+			<string>4</string>
+			<key>From socket parameter</key>
+			<string>Columns</string>
+			<key>To node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>To node id</key>
+			<string>237</string>
+			<key>To socket parameter</key>
+			<string>A</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueMiniMathNode</string>
+			<key>From node id</key>
+			<string>237</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ValueRandomNode</string>
+			<key>To node id</key>
+			<string>236</string>
+			<key>To socket parameter</key>
+			<string>Max</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ChangeTransformNode</string>
+			<key>From node id</key>
+			<string>223</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>GroupMergeNode</string>
+			<key>To node id</key>
+			<string>242</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>GroupSelectNode</string>
+			<key>From node id</key>
+			<string>231</string>
+			<key>From socket parameter</key>
+			<string>B</string>
+			<key>To node class</key>
+			<string>ChangeAlignNode</string>
+			<key>To node id</key>
+			<string>230</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>RepeatTransformNode</string>
+			<key>From node id</key>
+			<string>270</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ChangeReplaceNode</string>
+			<key>To node id</key>
+			<string>245</string>
+			<key>To socket parameter</key>
+			<string>Replacement Element</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ChangeReplaceNode</string>
+			<key>From node id</key>
+			<string>245</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>ChangeAlignNode</string>
+			<key>To node id</key>
+			<string>230</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Color</string>
+			<key>From node class</key>
+			<string>ColorListNode</string>
+			<key>From node id</key>
+			<string>221</string>
+			<key>From socket parameter</key>
+			<string>Color 0</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>246</string>
+			<key>To socket parameter</key>
+			<string>Fill Color</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Number</string>
+			<key>From node class</key>
+			<string>ValueNode</string>
+			<key>From node id</key>
+			<string>225</string>
+			<key>From socket parameter</key>
+			<string>Value</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>246</string>
+			<key>To socket parameter</key>
+			<string>Size</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ElementShapeNode</string>
+			<key>From node id</key>
+			<string>246</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>RepeatTransformNode</string>
+			<key>To node id</key>
+			<string>270</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Graphics</string>
+			<key>From node class</key>
+			<string>ElementShapeNode</string>
+			<key>From node id</key>
+			<string>271</string>
+			<key>From socket parameter</key>
+			<string>Graphics</string>
+			<key>To node class</key>
+			<string>RepeatTransformNode</string>
+			<key>To node id</key>
+			<string>270</string>
+			<key>To socket parameter</key>
+			<string>Graphics</string>
+		</dict>
+		<dict>
+			<key>Connection type</key>
+			<string>Color</string>
+			<key>From node class</key>
+			<string>ColorListNode</string>
+			<key>From node id</key>
+			<string>221</string>
+			<key>From socket parameter</key>
+			<string>Color 1</string>
+			<key>To node class</key>
+			<string>ElementShapeNode</string>
+			<key>To node id</key>
+			<string>271</string>
+			<key>To socket parameter</key>
+			<string>Fill Color</string>
+		</dict>
+	</array>
+	<key>Display Repeat Opacity</key>
+	<real>0.0</real>
+	<key>Display Scaling</key>
+	<real>1.03</real>
+	<key>Document scroll offset</key>
+	<string>{-482, -376}</string>
+	<key>Document split view part</key>
+	<real>675</real>
+	<key>Document window frame</key>
+	<string>{{178, 140}, {1964, 1246}}</string>
+	<key>Export File Format</key>
+	<string>svg</string>
+	<key>Export Filename</key>
+	<string>rotate-cubes2</string>
+	<key>Export Repetitions X</key>
+	<integer>1</integer>
+	<key>Export Repetitions Y</key>
+	<integer>1</integer>
+	<key>Export Scale To Display</key>
+	<true/>
+	<key>Node ID Counter</key>
+	<integer>313</integer>
+	<key>Nodes</key>
+	<array>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1814, 234}, {148, 278}}</string>
+			<key>Node id</key>
+			<string>1</string>
+			<key>Node title</key>
+			<string>Artboard</string>
+			<key>Node type class</key>
+			<string>ArtboardNode</string>
+			<key>Node type name</key>
+			<string>ArtboardNode</string>
+			<key>Output layers</key>
+			<array>
+				<dict>
+					<key>DisplayName</key>
+					<string>Top layer</string>
+					<key>LayerID</key>
+					<string>OutputLayer1</string>
+					<key>Visible</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Middle layer</string>
+					<key>LayerID</key>
+					<string>OutputLayer2</string>
+					<key>Visible</key>
+					<true/>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Bottom layer</string>
+					<key>LayerID</key>
+					<string>OutputLayer3</string>
+					<key>Visible</key>
+					<true/>
+				</dict>
+			</array>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>X</string>
+					<key>Parameter 2</key>
+					<string>Y</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Background Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmAQEBAYY=
+				</data>
+				<key>Background Opacity</key>
+				<real>1</real>
+				<key>Has Background</key>
+				<true/>
+				<key>Has Mirroring</key>
+				<real>0.0</real>
+				<key>Horizontal mirroring</key>
+				<real>0.0</real>
+				<key>Vertical mirroring</key>
+				<real>0.0</real>
+				<key>X</key>
+				<real>500</real>
+				<key>Y</key>
+				<real>500</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{727, 174}, {148, 423}}</string>
+			<key>Node id</key>
+			<string>4</string>
+			<key>Node title</key>
+			<string>Grid</string>
+			<key>Node type class</key>
+			<string>RepeatGridNode</string>
+			<key>Node type name</key>
+			<string>RepeatGridNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Columns</string>
+					<key>Parameter 2</key>
+					<string>Rows</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<false/>
+					<key>Parameter 1</key>
+					<string>Offset X</string>
+					<key>Parameter 2</key>
+					<string>Offset Y</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<false/>
+					<key>Parameter 1</key>
+					<string>Width</string>
+					<key>Parameter 2</key>
+					<string>Height</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Auto count</key>
+				<real>0.0</real>
+				<key>Auto spacing</key>
+				<true/>
+				<key>Columns</key>
+				<real>9</real>
+				<key>Dynamic elements</key>
+				<true/>
+				<key>Grid Mode</key>
+				<integer>0</integer>
+				<key>Grid height</key>
+				<real>0.0</real>
+				<key>Has Extras</key>
+				<false/>
+				<key>Height</key>
+				<real>350</real>
+				<key>Offset X</key>
+				<real>43.75</real>
+				<key>Offset Y</key>
+				<real>43.75</real>
+				<key>Remove last</key>
+				<real>0.0</real>
+				<key>Row shift</key>
+				<real>0.5</real>
+				<key>Rows</key>
+				<real>9</real>
+				<key>Short odd rows</key>
+				<real>0.0</real>
+				<key>Use artboard size</key>
+				<false/>
+				<key>Width</key>
+				<real>350</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-139, 7}, {148, 405}}</string>
+			<key>Node id</key>
+			<string>48</string>
+			<key>Node title</key>
+			<string>Shape</string>
+			<key>Node type class</key>
+			<string>ElementShapeNode</string>
+			<key>Node type name</key>
+			<string>ElementShapeNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Size</string>
+					<key>Parameter 2</key>
+					<string>Height</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>180</real>
+				<key>Diameter 2</key>
+				<real>20</real>
+				<key>Fill Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg+oBaD8Ag1YWcj8B
+				hg==
+				</data>
+				<key>Fill Opacity</key>
+				<real>1</real>
+				<key>Has Fill</key>
+				<true/>
+				<key>Has Rotation</key>
+				<false/>
+				<key>Has Rounding</key>
+				<real>0.0</real>
+				<key>Has Stroke</key>
+				<false/>
+				<key>Has Stroke Caps Joints</key>
+				<real>0.0</real>
+				<key>Height</key>
+				<real>50</real>
+				<key>Inner Diameter</key>
+				<real>0.0</real>
+				<key>Pie wedge</key>
+				<real>1</real>
+				<key>Rotation Angle</key>
+				<real>20</real>
+				<key>Rounding</key>
+				<real>0.20000000000000001</real>
+				<key>Rounding 2</key>
+				<real>0.20000000000000001</real>
+				<key>Shift</key>
+				<real>10</real>
+				<key>Sides</key>
+				<real>6</real>
+				<key>Size</key>
+				<real>24</real>
+				<key>Stroke Caps</key>
+				<integer>0</integer>
+				<key>Stroke Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmAAAAAYY=
+				</data>
+				<key>Stroke Joints</key>
+				<integer>0</integer>
+				<key>Stroke Opacity</key>
+				<real>1</real>
+				<key>Stroke Width</key>
+				<real>1</real>
+				<key>Type</key>
+				<integer>2</integer>
+				<key>X</key>
+				<real>0.0</real>
+				<key>Y</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-157, 437}, {148, 429}}</string>
+			<key>Node id</key>
+			<string>213</string>
+			<key>Node title</key>
+			<string>Shape</string>
+			<key>Node type class</key>
+			<string>ElementShapeNode</string>
+			<key>Node type name</key>
+			<string>ElementShapeNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Size</string>
+					<key>Parameter 2</key>
+					<string>Height</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>90</real>
+				<key>Diameter 2</key>
+				<real>20</real>
+				<key>Fill Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgxq5Hj8Ag3ImFz8B
+				hg==
+				</data>
+				<key>Fill Opacity</key>
+				<real>1</real>
+				<key>Has Fill</key>
+				<real>1</real>
+				<key>Has Rotation</key>
+				<true/>
+				<key>Has Rounding</key>
+				<real>0.0</real>
+				<key>Has Stroke</key>
+				<real>0.0</real>
+				<key>Has Stroke Caps Joints</key>
+				<real>0.0</real>
+				<key>Height</key>
+				<real>50</real>
+				<key>Inner Diameter</key>
+				<real>0.0</real>
+				<key>Pie wedge</key>
+				<real>1</real>
+				<key>Rotation Angle</key>
+				<real>180</real>
+				<key>Rounding</key>
+				<real>0.20000000000000001</real>
+				<key>Rounding 2</key>
+				<real>0.20000000000000001</real>
+				<key>Shift</key>
+				<real>10</real>
+				<key>Sides</key>
+				<real>6</real>
+				<key>Size</key>
+				<real>24</real>
+				<key>Stroke Caps</key>
+				<integer>0</integer>
+				<key>Stroke Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmAAAAAYY=
+				</data>
+				<key>Stroke Joints</key>
+				<integer>0</integer>
+				<key>Stroke Opacity</key>
+				<real>1</real>
+				<key>Stroke Width</key>
+				<real>1</real>
+				<key>Type</key>
+				<integer>2</integer>
+				<key>X</key>
+				<real>0.0</real>
+				<key>Y</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Change Mode</key>
+			<integer>0</integer>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{86, 149}, {148, 258}}</string>
+			<key>Node id</key>
+			<string>215</string>
+			<key>Node title</key>
+			<string>Transform</string>
+			<key>Node type class</key>
+			<string>ChangeTransformNode</string>
+			<key>Node type name</key>
+			<string>ChangeTransformNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Scale X</string>
+					<key>Parameter 2</key>
+					<string>Scale Y</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Resize X</string>
+					<key>Parameter 2</key>
+					<string>Resize Y</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>45</real>
+				<key>Has Offset</key>
+				<real>0.0</real>
+				<key>Has Rotation</key>
+				<real>1</real>
+				<key>Has Scale</key>
+				<real>0.0</real>
+				<key>Offset X</key>
+				<real>0.0</real>
+				<key>Offset Y</key>
+				<real>0.0</real>
+				<key>Resize X</key>
+				<real>0.0</real>
+				<key>Resize Y</key>
+				<real>0.0</real>
+				<key>Scale X</key>
+				<real>1</real>
+				<key>Scale Y</key>
+				<real>1</real>
+				<key>Selection Mode</key>
+				<integer>0</integer>
+				<key>Selection Offset</key>
+				<real>0.0</real>
+				<key>Selection Seed</key>
+				<real>0.0</real>
+				<key>Selection Select Count</key>
+				<real>1</real>
+				<key>Selection Skip Count</key>
+				<real>1</real>
+				<key>Size mode</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-629, 46}, {148, 310}}</string>
+			<key>Node id</key>
+			<string>216</string>
+			<key>Node title</key>
+			<string>List</string>
+			<key>Node type class</key>
+			<string>ColorListNode</string>
+			<key>Node type name</key>
+			<string>ColorListNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg8fCfD+D7Gd1PoND
+				vIk9AYY=
+				</data>
+				<key>Color 0</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg7yTYT+DptrDPoNU
+				25g9AYY=
+				</data>
+				<key>Color 1</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg8fCfD+D7Gd1PoND
+				vIk9AYY=
+				</data>
+				<key>Color 2</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg9cpaT+DYGN4P4N4
+				oh09AYY=
+				</data>
+				<key>Color 3</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg/2bAz6DDm16P4NS
+				ePc8AYY=
+				</data>
+				<key>Color 4</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg+oBaD8Ag1YWcj8B
+				hg==
+				</data>
+				<key>Color 5</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgzMzcz+DheuRPoMz
+				M3M/AYY=
+				</data>
+				<key>Color 6</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgzMzcz+DexQeP4OF
+				65E+AYY=
+				</data>
+				<key>Color 7</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg4XrkT6DMzNzP4Og
+				01Y/AYY=
+				</data>
+				<key>Color 8</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg3sUHj+DMzNzP4OF
+				65E+AYY=
+				</data>
+				<key>Color 9</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg4XrkT6D6LQBP4Mz
+				M3M/AYY=
+				</data>
+				<key>Index Mode</key>
+				<integer>0</integer>
+				<key>Index Offset</key>
+				<real>0.0</real>
+				<key>IndexParameter</key>
+				<string>Group index</string>
+				<key>Interpolate</key>
+				<real>0.0</real>
+				<key>Number of colors</key>
+				<integer>3</integer>
+				<key>Seed</key>
+				<real>4833</real>
+				<key>Show seed</key>
+				<real>0.0</real>
+				<key>Value</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-630, 439}, {148, 310}}</string>
+			<key>Node id</key>
+			<string>217</string>
+			<key>Node title</key>
+			<string>List</string>
+			<key>Node type class</key>
+			<string>ColorListNode</string>
+			<key>Node type name</key>
+			<string>ColorListNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg0Vc6D6DtHSQPoP6
+				5hs/AYY=
+				</data>
+				<key>Color 0</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgwtHHj+DpoJuP4OU
+				V2o/AYY=
+				</data>
+				<key>Color 1</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg9MjtD2DnVUpP4N8
+				WTk/AYY=
+				</data>
+				<key>Color 2</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg9FoJD6D/fkQP4NI
+				/xc8AYY=
+				</data>
+				<key>Color 3</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg0Vc6D6DtHSQPoP6
+				5hs/AYY=
+				</data>
+				<key>Color 4</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgxq5Hj8Ag3ImFz8B
+				hg==
+				</data>
+				<key>Color 5</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgzMzcz+DheuRPoMz
+				M3M/AYY=
+				</data>
+				<key>Color 6</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgzMzcz+DexQeP4OF
+				65E+AYY=
+				</data>
+				<key>Color 7</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg4XrkT6DMzNzP4Og
+				01Y/AYY=
+				</data>
+				<key>Color 8</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg3sUHj+DMzNzP4OF
+				65E+AYY=
+				</data>
+				<key>Color 9</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg4XrkT6D6LQBP4Mz
+				M3M/AYY=
+				</data>
+				<key>Index Mode</key>
+				<integer>0</integer>
+				<key>Index Offset</key>
+				<real>0.0</real>
+				<key>IndexParameter</key>
+				<string>Group index</string>
+				<key>Interpolate</key>
+				<real>0.0</real>
+				<key>Number of colors</key>
+				<integer>3</integer>
+				<key>Seed</key>
+				<real>8177</real>
+				<key>Show seed</key>
+				<real>0.0</real>
+				<key>Value</key>
+				<real>3</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-411, 198}, {148, 238}}</string>
+			<key>Node id</key>
+			<string>221</string>
+			<key>Node title</key>
+			<string>List</string>
+			<key>Node type class</key>
+			<string>ColorListNode</string>
+			<key>Node type name</key>
+			<string>ColorListNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg8fCfD+D7Gd1PoND
+				vIk9AYY=
+				</data>
+				<key>Color 0</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg8fCfD+D7Gd1PoND
+				vIk9AYY=
+				</data>
+				<key>Color 1</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg0Vc6D6DtHSQPoP6
+				5hs/AYY=
+				</data>
+				<key>Color 2</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg8yrZD6DgNNTPoNm
+				feA+AYY=
+				</data>
+				<key>Color 3</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgzMzcz+DfIZtP4OF
+				65E+AYY=
+				</data>
+				<key>Color 4</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg4XrkT6D16NIP4Mz
+				M3M/AYY=
+				</data>
+				<key>Color 5</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgzMzcz+DheuRPoMz
+				M3M/AYY=
+				</data>
+				<key>Color 6</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmgzMzcz+DexQeP4OF
+				65E+AYY=
+				</data>
+				<key>Color 7</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg4XrkT6DMzNzP4Og
+				01Y/AYY=
+				</data>
+				<key>Color 8</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg3sUHj+DMzNzP4OF
+				65E+AYY=
+				</data>
+				<key>Color 9</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg4XrkT6D6LQBP4Mz
+				M3M/AYY=
+				</data>
+				<key>Index Mode</key>
+				<integer>0</integer>
+				<key>Index Offset</key>
+				<real>0.0</real>
+				<key>IndexParameter</key>
+				<string>Group index</string>
+				<key>Interpolate</key>
+				<false/>
+				<key>Number of colors</key>
+				<integer>0</integer>
+				<key>Seed</key>
+				<real>8698</real>
+				<key>Show seed</key>
+				<real>0.0</real>
+				<key>Value</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Change Mode</key>
+			<integer>0</integer>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{342, 161}, {148, 258}}</string>
+			<key>Node id</key>
+			<string>223</string>
+			<key>Node title</key>
+			<string>Transform</string>
+			<key>Node type class</key>
+			<string>ChangeTransformNode</string>
+			<key>Node type name</key>
+			<string>ChangeTransformNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Scale X</string>
+					<key>Parameter 2</key>
+					<string>Scale Y</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Resize X</string>
+					<key>Parameter 2</key>
+					<string>Resize Y</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>19.352497633155963</real>
+				<key>Has Offset</key>
+				<real>0.0</real>
+				<key>Has Rotation</key>
+				<real>1</real>
+				<key>Has Scale</key>
+				<real>0.0</real>
+				<key>Offset X</key>
+				<real>0.0</real>
+				<key>Offset Y</key>
+				<real>0.0</real>
+				<key>Resize X</key>
+				<real>0.0</real>
+				<key>Resize Y</key>
+				<real>0.0</real>
+				<key>Scale X</key>
+				<real>1</real>
+				<key>Scale Y</key>
+				<real>1</real>
+				<key>Selection Mode</key>
+				<integer>0</integer>
+				<key>Selection Offset</key>
+				<real>0.0</real>
+				<key>Selection Seed</key>
+				<real>0.0</real>
+				<key>Selection Select Count</key>
+				<real>1</real>
+				<key>Selection Skip Count</key>
+				<real>1</real>
+				<key>Size mode</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{181, 477}, {128, 192}}</string>
+			<key>Node id</key>
+			<string>224</string>
+			<key>Node title</key>
+			<string>Random</string>
+			<key>Node type class</key>
+			<string>ValueRandomNode</string>
+			<key>Node type name</key>
+			<string>ValueRandomNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Increment</key>
+				<real>1</real>
+				<key>Incremental</key>
+				<real>0.0</real>
+				<key>Max</key>
+				<real>180</real>
+				<key>Min</key>
+				<real>0.0</real>
+				<key>Seed</key>
+				<real>9415</real>
+				<key>Show seed</key>
+				<real>0.0</real>
+				<key>Symmetrical range</key>
+				<real>0.0</real>
+				<key>Value</key>
+				<real>19.352497633155963</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-387, 85}, {128, 60}}</string>
+			<key>Node id</key>
+			<string>225</string>
+			<key>Node title</key>
+			<string>Value</string>
+			<key>Node type class</key>
+			<string>ValueNode</string>
+			<key>Node type name</key>
+			<string>ValueNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Value</key>
+				<real>24</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-811, 323}, {128, 216}}</string>
+			<key>Node id</key>
+			<string>229</string>
+			<key>Node title</key>
+			<string>Random</string>
+			<key>Node type class</key>
+			<string>ValueRandomNode</string>
+			<key>Node type name</key>
+			<string>ValueRandomNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Increment</key>
+				<real>1</real>
+				<key>Incremental</key>
+				<true/>
+				<key>Max</key>
+				<real>4</real>
+				<key>Min</key>
+				<real>0.0</real>
+				<key>Seed</key>
+				<real>5878</real>
+				<key>Show seed</key>
+				<real>0.0</real>
+				<key>Symmetrical range</key>
+				<real>0.0</real>
+				<key>Value</key>
+				<real>3</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Change Mode</key>
+			<integer>0</integer>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1644, 235}, {148, 261}}</string>
+			<key>Node id</key>
+			<string>230</string>
+			<key>Node title</key>
+			<string>Align</string>
+			<key>Node type class</key>
+			<string>ChangeAlignNode</string>
+			<key>Node type name</key>
+			<string>ChangeAlignNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Horizontal alignment</key>
+				<integer>1</integer>
+				<key>Horizontal artboard</key>
+				<real>1</real>
+				<key>Selection Mode</key>
+				<integer>0</integer>
+				<key>Selection Offset</key>
+				<real>0.0</real>
+				<key>Selection Seed</key>
+				<real>0.0</real>
+				<key>Selection Select Count</key>
+				<real>1</real>
+				<key>Selection Skip Count</key>
+				<real>1</real>
+				<key>Vertical alignment</key>
+				<integer>1</integer>
+				<key>Vertical artboard</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{911, 209}, {148, 283}}</string>
+			<key>Node id</key>
+			<string>231</string>
+			<key>Node title</key>
+			<string>Select</string>
+			<key>Node type class</key>
+			<string>GroupSelectNode</string>
+			<key>Node type name</key>
+			<string>GroupSelectNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Element Selection Mode</key>
+				<integer>0</integer>
+				<key>Selection Mode</key>
+				<integer>3</integer>
+				<key>Selection Offset</key>
+				<real>30</real>
+				<key>Selection Seed</key>
+				<real>0.0</real>
+				<key>Selection Select Count</key>
+				<real>1</real>
+				<key>Selection Skip Count</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{938, 640}, {128, 240}}</string>
+			<key>Node id</key>
+			<string>236</string>
+			<key>Node title</key>
+			<string>Random</string>
+			<key>Node type class</key>
+			<string>ValueRandomNode</string>
+			<key>Node type name</key>
+			<string>ValueRandomNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Increment</key>
+				<real>1</real>
+				<key>Incremental</key>
+				<true/>
+				<key>Max</key>
+				<real>81</real>
+				<key>Min</key>
+				<real>0.0</real>
+				<key>Seed</key>
+				<real>5958</real>
+				<key>Show seed</key>
+				<true/>
+				<key>Symmetrical range</key>
+				<false/>
+				<key>Value</key>
+				<real>78</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{834, 600}, {94, 36}}</string>
+			<key>Node id</key>
+			<string>237</string>
+			<key>Node title</key>
+			<string>Simple math</string>
+			<key>Node type class</key>
+			<string>ValueMiniMathNode</string>
+			<key>Node type name</key>
+			<string>ValueMiniMathNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>A</key>
+				<real>9</real>
+				<key>Value</key>
+				<string>a*a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{527, 221}, {148, 143}}</string>
+			<key>Node id</key>
+			<string>242</string>
+			<key>Node title</key>
+			<string>Flatten</string>
+			<key>Node type class</key>
+			<string>GroupMergeNode</string>
+			<key>Node type name</key>
+			<string>GroupMergeNode</string>
+			<key>Parameter values</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>Change Mode</key>
+			<integer>0</integer>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{1249, 92}, {148, 231}}</string>
+			<key>Node id</key>
+			<string>245</string>
+			<key>Node title</key>
+			<string>Replace</string>
+			<key>Node type class</key>
+			<string>ChangeReplaceNode</string>
+			<key>Node type name</key>
+			<string>ChangeReplaceNode</string>
+			<key>Parameter values</key>
+			<dict>
+				<key>Same transform</key>
+				<false/>
+				<key>Selection Mode</key>
+				<integer>0</integer>
+				<key>Selection Offset</key>
+				<real>0.0</real>
+				<key>Selection Seed</key>
+				<real>0.0</real>
+				<key>Selection Select Count</key>
+				<real>1</real>
+				<key>Selection Skip Count</key>
+				<real>1</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{126, -344}, {148, 470}}</string>
+			<key>Node id</key>
+			<string>246</string>
+			<key>Node title</key>
+			<string>Shape</string>
+			<key>Node type class</key>
+			<string>ElementShapeNode</string>
+			<key>Node type name</key>
+			<string>ElementShapeNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Size</string>
+					<key>Parameter 2</key>
+					<string>Height</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>90</real>
+				<key>Diameter 2</key>
+				<real>20</real>
+				<key>Fill Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg8fCfD+D7Gd1PoND
+				vIk9AYY=
+				</data>
+				<key>Fill Opacity</key>
+				<real>1</real>
+				<key>Has Fill</key>
+				<real>1</real>
+				<key>Has Rotation</key>
+				<real>0.0</real>
+				<key>Has Rounding</key>
+				<real>0.0</real>
+				<key>Has Stroke</key>
+				<true/>
+				<key>Has Stroke Caps Joints</key>
+				<real>0.0</real>
+				<key>Height</key>
+				<real>30</real>
+				<key>Inner Diameter</key>
+				<real>0.0</real>
+				<key>Pie wedge</key>
+				<real>1</real>
+				<key>Rotation Angle</key>
+				<real>0.0</real>
+				<key>Rounding</key>
+				<real>0.20000000000000001</real>
+				<key>Rounding 2</key>
+				<real>0.20000000000000001</real>
+				<key>Shift</key>
+				<real>10</real>
+				<key>Sides</key>
+				<real>6</real>
+				<key>Size</key>
+				<real>24</real>
+				<key>Stroke Caps</key>
+				<integer>0</integer>
+				<key>Stroke Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmAAAAAYY=
+				</data>
+				<key>Stroke Joints</key>
+				<integer>0</integer>
+				<key>Stroke Opacity</key>
+				<real>1</real>
+				<key>Stroke Width</key>
+				<real>0.0</real>
+				<key>Type</key>
+				<integer>0</integer>
+				<key>X</key>
+				<real>0.0</real>
+				<key>Y</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{325, -442}, {148, 357}}</string>
+			<key>Node id</key>
+			<string>270</string>
+			<key>Node title</key>
+			<string>Transform</string>
+			<key>Node type class</key>
+			<string>RepeatTransformNode</string>
+			<key>Node type name</key>
+			<string>RepeatTransformNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<false/>
+					<key>Parameter 1</key>
+					<string>Resize X</string>
+					<key>Parameter 2</key>
+					<string>Resize Y</string>
+				</dict>
+				<dict>
+					<key>Active</key>
+					<false/>
+					<key>Parameter 1</key>
+					<string>Scale X</string>
+					<key>Parameter 2</key>
+					<string>Scale Y</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>0.0</real>
+				<key>Auto spacing</key>
+				<real>0.0</real>
+				<key>Count</key>
+				<real>8</real>
+				<key>Dynamic elements</key>
+				<false/>
+				<key>Has Offset</key>
+				<false/>
+				<key>Has Rotation</key>
+				<real>0.0</real>
+				<key>Has Scale</key>
+				<true/>
+				<key>Height</key>
+				<real>500</real>
+				<key>Offset X</key>
+				<real>40</real>
+				<key>Offset Y</key>
+				<real>40</real>
+				<key>Resize X</key>
+				<real>1</real>
+				<key>Resize Y</key>
+				<real>1</real>
+				<key>Scale X</key>
+				<real>2</real>
+				<key>Scale Y</key>
+				<real>0.0</real>
+				<key>Size mode</key>
+				<true/>
+				<key>Use artboard size</key>
+				<real>1</real>
+				<key>Width</key>
+				<real>500</real>
+			</dict>
+		</dict>
+		<dict>
+			<key>Hidden</key>
+			<false/>
+			<key>Node frame rect</key>
+			<string>{{-63, -569}, {148, 381}}</string>
+			<key>Node id</key>
+			<string>271</string>
+			<key>Node title</key>
+			<string>Shape</string>
+			<key>Node type class</key>
+			<string>ElementShapeNode</string>
+			<key>Node type name</key>
+			<string>ElementShapeNode</string>
+			<key>Parameter link states</key>
+			<array>
+				<dict>
+					<key>Active</key>
+					<true/>
+					<key>Parameter 1</key>
+					<string>Size</string>
+					<key>Parameter 2</key>
+					<string>Height</string>
+				</dict>
+			</array>
+			<key>Parameter values</key>
+			<dict>
+				<key>Angle</key>
+				<real>90</real>
+				<key>Diameter 2</key>
+				<real>20</real>
+				<key>Fill Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmg0Vc6D6DtHSQPoP6
+				5hs/AYY=
+				</data>
+				<key>Fill Opacity</key>
+				<real>1</real>
+				<key>Has Fill</key>
+				<real>1</real>
+				<key>Has Rotation</key>
+				<real>0.0</real>
+				<key>Has Rounding</key>
+				<real>0.0</real>
+				<key>Has Stroke</key>
+				<real>0.0</real>
+				<key>Has Stroke Caps Joints</key>
+				<real>0.0</real>
+				<key>Height</key>
+				<real>12</real>
+				<key>Inner Diameter</key>
+				<real>0.0</real>
+				<key>Pie wedge</key>
+				<real>1</real>
+				<key>Rotation Angle</key>
+				<real>0.0</real>
+				<key>Rounding</key>
+				<real>0.20000000000000001</real>
+				<key>Rounding 2</key>
+				<real>0.20000000000000001</real>
+				<key>Shift</key>
+				<real>10</real>
+				<key>Sides</key>
+				<real>6</real>
+				<key>Size</key>
+				<real>12</real>
+				<key>Stroke Caps</key>
+				<integer>0</integer>
+				<key>Stroke Color</key>
+				<data>
+				BAtzdHJlYW10eXBlZIHoA4QBQISEhAdOU0NvbG9yAISE
+				CE5TT2JqZWN0AIWEAWMBhARmZmZmAAAAAYY=
+				</data>
+				<key>Stroke Joints</key>
+				<integer>0</integer>
+				<key>Stroke Opacity</key>
+				<real>1</real>
+				<key>Stroke Width</key>
+				<real>1</real>
+				<key>Type</key>
+				<integer>0</integer>
+				<key>X</key>
+				<real>0.0</real>
+				<key>Y</key>
+				<real>0.0</real>
+			</dict>
+		</dict>
+	</array>
+	<key>Preview Image</key>
+	<data>
+	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
+	vvz4Zfmv5du/Lf/yzX6nxpWg6hy4BIGcAL8k5cdXLtNyboUJv3JjpUnKYcAu6X+wc7d8
+	efu+fP/x/e37X//+c/kjm2EO/eX70j+86SFW/q/9+P4ndnXru/rD/wPzfbmdCmVuZHN0
+	cmVhbQplbmRvYmoKNSAwIG9iago2MDg3CmVuZG9iagoyIDAgb2JqCjw8IC9UeXBlIC9Q
+	YWdlIC9QYXJlbnQgMyAwIFIgL1Jlc291cmNlcyA2IDAgUiAvQ29udGVudHMgNCAwIFIg
+	L01lZGlhQm94IFswIDAgNTE1IDUxNV0KPj4KZW5kb2JqCjYgMCBvYmoKPDwgL1Byb2NT
+	ZXQgWyAvUERGIC9UZXh0IF0gL0NvbG9yU3BhY2UgPDwgL0NzMSA3IDAgUiAvQ3MyIDgg
+	MCBSID4+IC9FeHRHU3RhdGUKPDwgL0dzMSAxMSAwIFIgL0dzMiAxMiAwIFIgPj4gL0Zv
+	bnQgPDwgL1RUMiAxMCAwIFIgL1RUMSA5IDAgUiA+PiA+PgplbmRvYmoKMTEgMCBvYmoK
+	PDwgL1R5cGUgL0V4dEdTdGF0ZSAvY2EgMC4xID4+CmVuZG9iagoxMiAwIG9iago8PCAv
+	VHlwZSAvRXh0R1N0YXRlIC9jYSAwLjUgPj4KZW5kb2JqCjEzIDAgb2JqCjw8IC9MZW5n
+	dGggMTQgMCBSIC9OIDMgL0FsdGVybmF0ZSAvRGV2aWNlUkdCIC9GaWx0ZXIgL0ZsYXRl
+	RGVjb2RlID4+CnN0cmVhbQp4AZ2Wd1RT2RaHz703vdASIiAl9Bp6CSDSO0gVBFGJSYBQ
+	AoaEJnZEBUYUESlWZFTAAUeHImNFFAuDgmLXCfIQUMbBUURF5d2MawnvrTXz3pr9x1nf
+	2ee319ln733XugBQ/IIEwnRYAYA0oVgU7uvBXBITy8T3AhgQAQ5YAcDhZmYER/hEAtT8
+	vT2ZmahIxrP27i6AZLvbLL9QJnPW/3+RIjdDJAYACkXVNjx+JhflApRTs8UZMv8EyvSV
+	KTKGMTIWoQmirCLjxK9s9qfmK7vJmJcm5KEaWc4ZvDSejLtQ3pol4aOMBKFcmCXgZ6N8
+	B2W9VEmaAOX3KNPT+JxMADAUmV/M5yahbIkyRRQZ7onyAgAIlMQ5vHIOi/k5aJ4AeKZn
+	5IoEiUliphHXmGnl6Mhm+vGzU/liMSuUw03hiHhMz/S0DI4wF4Cvb5ZFASVZbZloke2t
+	HO3tWdbmaPm/2d8eflP9Pch6+1XxJuzPnkGMnlnfbOysL70WAPYkWpsds76VVQC0bQZA
+	5eGsT+8gAPIFALTenPMehmxeksTiDCcLi+zsbHMBn2suK+g3+5+Cb8q/hjn3mcvu+1Y7
+	phc/gSNJFTNlReWmp6ZLRMzMDA6Xz2T99xD/48A5ac3Jwyycn8AX8YXoVVHolAmEiWi7
+	hTyBWJAuZAqEf9Xhfxg2JwcZfp1rFGh1XwB9hTlQuEkHyG89AEMjAyRuP3oCfetbEDEK
+	yL68aK2Rr3OPMnr+5/ofC1yKbuFMQSJT5vYMj2RyJaIsGaPfhGzBAhKQB3SgCjSBLjAC
+	LGANHIAzcAPeIACEgEgQA5YDLkgCaUAEskE+2AAKQTHYAXaDanAA1IF60AROgjZwBlwE
+	V8ANcAsMgEdACobBSzAB3oFpCILwEBWiQaqQFqQPmULWEBtaCHlDQVA4FAPFQ4mQEJJA
+	+dAmqBgqg6qhQ1A99CN0GroIXYP6oAfQIDQG/QF9hBGYAtNhDdgAtoDZsDscCEfCy+BE
+	eBWcBxfA2+FKuBY+DrfCF+Eb8AAshV/CkwhAyAgD0UZYCBvxREKQWCQBESFrkSKkAqlF
+	mpAOpBu5jUiRceQDBoehYZgYFsYZ44dZjOFiVmHWYkow1ZhjmFZMF+Y2ZhAzgfmCpWLV
+	saZYJ6w/dgk2EZuNLcRWYI9gW7CXsQPYYew7HA7HwBniHHB+uBhcMm41rgS3D9eMu4Dr
+	ww3hJvF4vCreFO+CD8Fz8GJ8Ib4Kfxx/Ht+PH8a/J5AJWgRrgg8hliAkbCRUEBoI5wj9
+	hBHCNFGBqE90IoYQecRcYimxjthBvEkcJk6TFEmGJBdSJCmZtIFUSWoiXSY9Jr0hk8k6
+	ZEdyGFlAXk+uJJ8gXyUPkj9QlCgmFE9KHEVC2U45SrlAeUB5Q6VSDahu1FiqmLqdWk+9
+	RH1KfS9HkzOX85fjya2Tq5FrleuXeyVPlNeXd5dfLp8nXyF/Sv6m/LgCUcFAwVOBo7BW
+	oUbhtMI9hUlFmqKVYohimmKJYoPiNcVRJbySgZK3Ek+pQOmw0iWlIRpC06V50ri0TbQ6
+	2mXaMB1HN6T705PpxfQf6L30CWUlZVvlKOUc5Rrls8pSBsIwYPgzUhmljJOMu4yP8zTm
+	uc/jz9s2r2le/7wplfkqbip8lSKVZpUBlY+qTFVv1RTVnaptqk/UMGomamFq2Wr71S6r
+	jc+nz3eez51fNP/k/IfqsLqJerj6avXD6j3qkxqaGr4aGRpVGpc0xjUZmm6ayZrlmuc0
+	x7RoWgu1BFrlWue1XjCVme7MVGYls4s5oa2u7act0T6k3as9rWOos1hno06zzhNdki5b
+	N0G3XLdTd0JPSy9YL1+vUe+hPlGfrZ+kv0e/W3/KwNAg2mCLQZvBqKGKob9hnmGj4WMj
+	qpGr0SqjWqM7xjhjtnGK8T7jWyawiZ1JkkmNyU1T2NTeVGC6z7TPDGvmaCY0qzW7x6Kw
+	3FlZrEbWoDnDPMh8o3mb+SsLPYtYi50W3RZfLO0sUy3rLB9ZKVkFWG206rD6w9rEmmtd
+	Y33HhmrjY7POpt3mta2pLd92v+19O5pdsN0Wu067z/YO9iL7JvsxBz2HeIe9DvfYdHYo
+	u4R91RHr6OG4zvGM4wcneyex00mn351ZzinODc6jCwwX8BfULRhy0XHhuBxykS5kLoxf
+	eHCh1FXbleNa6/rMTdeN53bEbcTd2D3Z/bj7Kw9LD5FHi8eUp5PnGs8LXoiXr1eRV6+3
+	kvdi72rvpz46Pok+jT4Tvna+q30v+GH9Av12+t3z1/Dn+tf7TwQ4BKwJ6AqkBEYEVgc+
+	CzIJEgV1BMPBAcG7gh8v0l8kXNQWAkL8Q3aFPAk1DF0V+nMYLiw0rCbsebhVeH54dwQt
+	YkVEQ8S7SI/I0shHi40WSxZ3RslHxUXVR01Fe0WXRUuXWCxZs+RGjFqMIKY9Fh8bFXsk
+	dnKp99LdS4fj7OIK4+4uM1yWs+zacrXlqcvPrpBfwVlxKh4bHx3fEP+JE8Kp5Uyu9F+5
+	d+UE15O7h/uS58Yr543xXfhl/JEEl4SyhNFEl8RdiWNJrkkVSeMCT0G14HWyX/KB5KmU
+	kJSjKTOp0anNaYS0+LTTQiVhirArXTM9J70vwzSjMEO6ymnV7lUTokDRkUwoc1lmu5iO
+	/kz1SIwkmyWDWQuzarLeZ0dln8pRzBHm9OSa5G7LHcnzyft+NWY1d3Vnvnb+hvzBNe5r
+	Dq2F1q5c27lOd13BuuH1vuuPbSBtSNnwy0bLjWUb326K3tRRoFGwvmBos+/mxkK5QlHh
+	vS3OWw5sxWwVbO3dZrOtatuXIl7R9WLL4oriTyXckuvfWX1X+d3M9oTtvaX2pft34HYI
+	d9zd6brzWJliWV7Z0K7gXa3lzPKi8re7V+y+VmFbcWAPaY9kj7QyqLK9Sq9qR9Wn6qTq
+	gRqPmua96nu37Z3ax9vXv99tf9MBjQPFBz4eFBy8f8j3UGutQW3FYdzhrMPP66Lqur9n
+	f19/RO1I8ZHPR4VHpcfCj3XVO9TXN6g3lDbCjZLGseNxx2/94PVDexOr6VAzo7n4BDgh
+	OfHix/gf754MPNl5in2q6Sf9n/a20FqKWqHW3NaJtqQ2aXtMe9/pgNOdHc4dLT+b/3z0
+	jPaZmrPKZ0vPkc4VnJs5n3d+8kLGhfGLiReHOld0Prq05NKdrrCu3suBl69e8blyqdu9
+	+/xVl6tnrjldO32dfb3thv2N1h67npZf7H5p6bXvbb3pcLP9luOtjr4Ffef6Xfsv3va6
+	feWO/50bA4sG+u4uvnv/Xtw96X3e/dEHqQ9eP8x6OP1o/WPs46InCk8qnqo/rf3V+Ndm
+	qb307KDXYM+ziGePhrhDL/+V+a9PwwXPqc8rRrRG6ketR8+M+YzderH0xfDLjJfT44W/
+	Kf6295XRq59+d/u9Z2LJxPBr0euZP0reqL45+tb2bedk6OTTd2nvpqeK3qu+P/aB/aH7
+	Y/THkensT/hPlZ+NP3d8CfzyeCZtZubf94Tz+wplbmRzdHJlYW0KZW5kb2JqCjE0IDAg
+	b2JqCjI2MTIKZW5kb2JqCjcgMCBvYmoKWyAvSUNDQmFzZWQgMTMgMCBSIF0KZW5kb2Jq
+	CjE1IDAgb2JqCjw8IC9MZW5ndGggMTYgMCBSIC9OIDEgL0FsdGVybmF0ZSAvRGV2aWNl
+	R3JheSAvRmlsdGVyIC9GbGF0ZURlY29kZSA+PgpzdHJlYW0KeAGlVwdYk9caPv9IwkrY
+	U0bYyDKg7BmZAWQPQVRiEkgYIQaCgLgoxQrWLQ4cFS2KUrRaESgu1OKgblDruFBLBaUW
+	q7iwes8JoND2ufc+z83/HP73fGd86z3ffwBAXciVSLJxAECOOF8aEstOnpmcwqTdAwpA
+	F6gCR6DK5eVJ2NHREXAKEOeKBeg98feyC2BIcsMB7TVx7L/2KHxBHg/OOgVbET+PlwMA
+	5g0ArY8nkeYDoGgB5eYL8iUIh0KslRUfGwBxKgAKKqNroRiYhAjEAqmIxwyRcouYIdyc
+	HC7T2dGZGS3NTRdl/4PVaNH/88vJliG70c8ENpW8rLhw+HaE9pfxuYEIu0N8mMcNihvF
+	jwtEiZEQ+wOAm0nyp8dCHAbxPFlWAhtie4jr06XBCRD7QnxbKAtFeBoAhE6xMD4JYmOI
+	w8TzIqMg9oRYyMsLSIHYBuIaoYCD8gRjRlwU5XPiIYb6iKfS3Fg03xYA0psvCAwakZPp
+	WbnhyAYzKP8uryAOyeU2FwsDkJ1QF9mVyQ2LhtgK4heC7BA0H+5DMZDkR6M9YZ8SKM6O
+	RHr9Ia4S5Mn9hX1KV74wHuXMGQCqWb40Hq2FtlHj00XBHIiDIS4USkORHPpLPSHJlvMM
+	xoT6TiqLRb5DH2nBAnECiiHixVKuNCgEYhgrWitIxLhAAHLBPPiXB8SgBzBBHhCBAjnK
+	AFyQAxsTWmAPWwicJYZNCmfkgSwoz4C49+M46qMVaI0EjuSCdDgzG64bkzIBH64fWYf2
+	yIUN9dC+ffJ9eaP6HKG+AOOvgQyOC8EAHBdCNAN0yyWF0L4c2A+AUhkcy4B4vBZnyCNn
+	EC23dcQGNI609I9qyYUr+HJdI+uQlyO2BUCbxaAYjiHb5J6TuiSLnAqbFxlB+pAsuTYp
+	nFEEHORyb7lsTOsnz5Fv/R+1zoe2jvd+fLzGYnwaxisf7pwNPRSPxicPWvMO2p01uvpT
+	NOUa1xjIbCSSqlUxnDm1couR78xS6VwR78rqwf+QtU/ZGtPuMCFvUeN5IWcK/2+8gLoo
+	1ylXKQ8oNwETvn+hdFL6ILpLuQefOx/tiR7HBxR7xBwR/CuCPo4xYIRZPLkE5SIbPigv
+	f7fzU85G9vnLDhgh14s4y5bvghiWAxvKrECe1xConwvzkQejLYM8RdxwgIwZn7sRLeNO
+	QHtJqx5gdq08dQEw69Waz8u1yKPdSTal3lBpL0kXrzGQSObUlgwLJJ9GUR4EyyNfRoJS
+	e9Yh1gBrD6ue9Zz14NMM1i3Wb6xO1i448oRYTxwljhPNRAvRAZiw10KcJprlqJ5ohc+3
+	H9dNZPjIOZrIcMQ33iijkY/5o5waz/1xHsrjNRYtNH8sU5mjJ3U891B8xzMGZex/s2h8
+	RidWhJHsyE8dw5zhxKAxbBkuDDYDY5jCx5nhD5E5w4wRwdCFo6EMa0YgY9LHeIyccWQH
+	Ou+IYWN14VMVS4ajY0xA/gkhD6TymsUd9fevPjIneIkqmmj8qcLo8GSOaBqpCWM6x+Iq
+	Z8iEk5UANYnAAmiHFMYVnXYxrCXMCXNQJUZVCDISmyXP4T+cBNKYdCI5sDJFASbJJl1I
+	/1GMqpU3fFCtGqneDqQfHPUlA0l3VMfGewB3H4kXqmj/bP34kyGgelKtqUFUa/necu+o
+	gdRQajBgUp2QnDqFGgaxB5qVLyiEdw8AAnIlRVJRhjCfyYa3HAGTI+Y52jOdWU7w64bu
+	TGgOAM9j5HchTKeDJ5MWjMhI9KIAJXif0gL68KtqDr/WDtArN+AFv5lB8A4QBeJBMpgD
+	/RDCTEphZEvAMlAOKsEasBFsBTvBHlAHGsBhcAy0gtPgB3AJXAWd4C78nvSCJ2AQvATD
+	GIbRMDqmieljJpglZoc5Y+6YLxaERWCxWDKWhmVgYkyGlWCfYZXYOmwrtgurw77FmrHT
+	2AXsGnYH68H6sT+wtziBq+BauBFuhU/B3XE2Ho7H47PxDHw+XoyX4avwzXgNXo834qfx
+	S3gn3o0/wYcIQCgTOoQp4UC4EwFEFJFCpBNSYjFRQVQRNUQDrAHtxA2imxgg3pBUUpNk
+	kg4wi6FkAskj55OLyZXkVnIf2UieJW+QPeQg+Z5CpxhS7CieFA5lJiWDsoBSTqmi1FKO
+	Us7BCt1LeUmlUnVgftxg3pKpmdSF1JXU7dSD1FPUa9SH1CEajaZPs6P50KJoXFo+rZy2
+	hVZPO0m7TuulvVZQVjBRcFYIVkhRECuUKlQp7Fc4oXBd4ZHCsKKaoqWip2KUIl+xSHG1
+	4h7FFsUrir2Kw0rqStZKPkrxSplKy5Q2KzUonVO6p/RcWVnZTNlDOUZZpLxUebPyIeXz
+	yj3Kb1Q0VGxVAlRSVWQqq1T2qpxSuaPynE6nW9H96Sn0fPoqeh39DP0B/TVDk+HI4DD4
+	jCWMakYj4zrjqaqiqqUqW3WOarFqleoR1SuqA2qKalZqAWpctcVq1WrNarfUhtQ11Z3U
+	o9Rz1Feq71e/oN6nQdOw0gjS4GuUaezWOKPxUJPQNNcM0ORpfqa5R/OcZq8WVctai6OV
+	qVWp9Y3WZa1BbQ3tadqJ2oXa1drHtbt1CB0rHY5Ots5qncM6XTpvdY102boC3RW6DbrX
+	dV/pTdLz1xPoVegd1OvUe6vP1A/Sz9Jfq39M/74BaWBrEGOwwGCHwTmDgUlak7wm8SZV
+	TDo86SdD3NDWMNZwoeFuww7DISNjoxAjidEWozNGA8Y6xv7GmcYbjE8Y95tomviaiEw2
+	mJw0eczUZrKZ2czNzLPMQVND01BTmeku08umw2bWZglmpWYHze6bK5m7m6ebbzBvMx+0
+	MLGYYVFiccDiJ0tFS3dLoeUmy3bLV1bWVklWy62OWfVZ61lzrIutD1jfs6Hb+NnMt6mx
+	uTmZOtl9ctbk7ZOv2uK2LrZC22rbK3a4naudyG673TV7ir2Hvdi+xv6Wg4oD26HA4YBD
+	j6OOY4RjqeMxx6dTLKakTFk7pX3Ke5YLKxt+3e46aTiFOZU6tTj94WzrzHOudr45lT41
+	eOqSqU1Tn02zmyaYtmPabRdNlxkuy13aXP50dXOVuja49rtZuKW5bXO75a7lHu2+0v28
+	B8VjuscSj1aPN56unvmehz1/93LwyvLa79Xnbe0t8N7j/dDHzIfrs8un25fpm+b7lW+3
+	n6kf16/G72d/c3++f63/I/Zkdia7nv10Omu6dPrR6a8CPAMWBZwKJAJDAisCLwdpBCUE
+	bQ16EGwWnBF8IHgwxCVkYcipUEpoeOja0FscIw6PU8cZDHMLWxR2NlwlPC58a/jPEbYR
+	0oiWGfiMsBnrZ9yLtIwURx6LAlGcqPVR96Oto+dHfx9DjYmOqY75NdYptiS2PU4zbm7c
+	/riX8dPjV8ffTbBJkCW0JaompibWJb5KCkxal9Q9c8rMRTMvJRski5KbUmgpiSm1KUOz
+	gmZtnNWb6pJanto123p24ewLcwzmZM85Pld1LnfukTRKWlLa/rR33ChuDXdoHmfetnmD
+	vADeJt4Tvj9/A79f4CNYJ3iU7pO+Lr0vwydjfUa/0E9YJRwQBYi2ip5lhmbuzHyVFZW1
+	N+tDdlL2wRyFnLScZrGGOEt8Ntc4tzD3msROUi7pnu85f+P8QWm4tDYPy5ud15SvBf/B
+	7JDZyD6X9RT4FlQXvF6QuOBIoXqhuLCjyLZoRdGj4uDirxeSC3kL20pMS5aV9CxiL9q1
+	GFs8b3HbEvMlZUt6l4Ys3bdMaVnWsh9LWaXrSl98lvRZS5lR2dKyh5+HfH6gnFEuLb+1
+	3Gv5zi/IL0RfXF4xdcWWFe8r+BUXK1mVVZXvVvJWXvzS6cvNX35Ylb7q8mrX1TvWUNeI
+	13St9Vu7b536uuJ1D9fPWN+4gbmhYsOLjXM3XqiaVrVzk9Im2abuzRGbm7ZYbFmz5d1W
+	4dbO6unVB7cZblux7dV2/vbrO/x3NOw02lm58+1Xoq9u7wrZ1VhjVVO1m7q7YPevexL3
+	tH/t/nVdrUFtZe2fe8V7u/fF7jtb51ZXt99w/+oD+AHZgf761Pqr3wR+09Tg0LDroM7B
+	ykPgkOzQ42/Tvu06HH647Yj7kYbvLL/bdlTzaEUj1ljUOHhMeKy7KbnpWnNYc1uLV8vR
+	7x2/39tq2lp9XPv46hNKJ8pOfDhZfHLolOTUwOmM0w/b5rbdPTPzzM2zMWcvnws/d/6H
+	4B/OtLPbT573Od96wfNC80X3i8cuuV5q7HDpOPqjy49HL7tebrzidqXpqsfVlmve105c
+	97t++kbgjR9ucm5e6ozsvNaV0HX7Vuqt7tv82313su88+6ngp+G7S+ElvuK+2v2qB4YP
+	av41+V8Hu127j/cE9nT8HPfz3Ye8h09+yfvlXW/Zr/Rfqx6ZPKrrc+5r7Q/uv/p41uPe
+	J5InwwPlv6n/tu2pzdPvfvf/vWNw5mDvM+mzD3+sfK7/fO+LaS/ahqKHHrzMeTn8quK1
+	/ut9b9zftL9NevtoeME72rvNf07+s+V9+Pt7H3I+fPg3LV3wHAplbmRzdHJlYW0KZW5k
+	b2JqCjE2IDAgb2JqCjMzNjcKZW5kb2JqCjggMCBvYmoKWyAvSUNDQmFzZWQgMTUgMCBS
+	IF0KZW5kb2JqCjMgMCBvYmoKPDwgL1R5cGUgL1BhZ2VzIC9NZWRpYUJveCBbMCAwIDUx
+	NSA1MTVdIC9Db3VudCAxIC9LaWRzIFsgMiAwIFIgXSA+PgplbmRvYmoKMTcgMCBvYmoK
+	PDwgL1R5cGUgL0NhdGFsb2cgL1BhZ2VzIDMgMCBSIC9WZXJzaW9uIC8xLjQgPj4KZW5k
+	b2JqCjEwIDAgb2JqCjw8IC9UeXBlIC9Gb250IC9TdWJ0eXBlIC9UcnVlVHlwZSAvQmFz
+	ZUZvbnQgL1hSVE9VWCsuU0ZOUy1SZWd1bGFyIC9Gb250RGVzY3JpcHRvcgoxOCAwIFIg
+	L0VuY29kaW5nIC9NYWNSb21hbkVuY29kaW5nIC9GaXJzdENoYXIgMzIgL0xhc3RDaGFy
+	IDExOCAvV2lkdGhzIFsgMjA1CjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+	MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAKMCAwIDAgMCAw
+	IDAgMCAwIDAgMCAwIDAgMCA1OTMgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA1MDIg
+	MCAwIDU1NCA1MTIgMAowIDAgMCAwIDAgMjA0IDgwMyA1MjcgNTMxIDAgMCAzMDggNDY1
+	IDMwMSAwIDQ4MyBdID4+CmVuZG9iagoxOCAwIG9iago8PCAvVHlwZSAvRm9udERlc2Ny
+	aXB0b3IgL0ZvbnROYW1lIC9YUlRPVVgrLlNGTlMtUmVndWxhciAvRmxhZ3MgMzIgL0Zv
+	bnRCQm94ClstNDE3IC0yOTkgMTI0NyAxMDc0XSAvSXRhbGljQW5nbGUgMCAvQXNjZW50
+	IDk2NyAvRGVzY2VudCAtMjExIC9DYXBIZWlnaHQKNzA1IC9TdGVtViA4OCAvWEhlaWdo
+	dCA1MDggL1N0ZW1IIDc5IC9BdmdXaWR0aCA1NzUgL01heFdpZHRoIDEyOTUgL0ZvbnRG
+	aWxlMgoxOSAwIFIgPj4KZW5kb2JqCjE5IDAgb2JqCjw8IC9MZW5ndGggMjAgMCBSIC9M
+	ZW5ndGgxIDI4ODggL0ZpbHRlciAvRmxhdGVEZWNvZGUgPj4Kc3RyZWFtCngBrVZpbFVV
+	EP7uvY+2LLYsgmAMFJXFBQhRNsECVlq2ArZUoKyFFgq00JaltMi+FtkFpSxlryLFyCKI
+	YIyIyJKgJEZBJEKMC/wANYAE2vf5nfNeSxFM+OG83Dtn5syZc+Y7M3PfxOxJqaiMmfBQ
+	fURGciYsOcvFjo1Kzx0ZkN0pQFhaWmpySkBGiXhrowjIzoviT6dlTJSdIae/Xm3Tx48I
+	zrtGrp+RPCXoHz9KjhyXnJEqLqoaqVfTzPETJhoJqHJRr07frPjNwTCNguQE+cXWUeX6
+	/BmAL6jvtGK8Z+zrXv1wFaWHWRCOpQjFSFSyUtBSzKeIzbyeoeHu9aERHW7AC7Pz5/JW
+	7jWDc1MLh5fsLF1f+U7YGokeXDtt14Qe9vfROQeX7CzZWfnOv3xrV3lKcbZpm88Q4/Mh
+	1jcOUb56iHK2IC8kA1m+Nno6IsrNQZZ3ENHuaIR7F/CYdnCC3qohBB9LjkS/+/wHD/I/
+	s7L4HuTWs0qfcKxIIcI2TPljqAqqopr4I1YCuur3ldPe2e6GunXdhe4xr77Xzzvjq+cz
+	2RKCFH/N0PWhhcI1VCsjUMtE39l5MCEltC1w6zjwcNxfU0A+oX1WPSR3EMPffbmVDqGF
+	TqGFweRwxINDmHGZcI8eMcJgEa5iA7bgGubKDIxifQ5jOmcbCYlYjiQMUTYmCrF9LOE0
+	NmAmx/JxTrcWX+IcNuFtWHvu4CgWskAeCnnDmcO5jOVaazcGX2AeCnAYLfEUIjFZHrtj
+	NISPdj3CpdytwVTNj7GaAnZjPkfyJZ7hBf7EBdzOg1zBz80sOiATccrsWF711vie1E08
+	a+NXqLoJGdjHXEpgHIzbylZ1nFu41HjCBIx26pgB9yq4BQJlFtLQwNbndqvfyDjOZ1c2
+	4t94DzV0yBSkY4qZ83/HnmxvRkr39RaEJIXVHf2VHjW4kx9xIT9huuZbYgBkyTjA/Vo7
+	rEGCWaYwc8XitMJIq7hZIF7jTUGYx62cwD2yR5TivF5pK+qgcfCeTWwirfnP5w56YKbO
+	2lDJChTJe7yeEl7S5czSyaaxHVeYXQXmCWzXRc/XCpHm8ljEbczlASOjGxbwqngLRdlB
+	82oiOgxKj0rXDn3R3BhxKsM5WL9wTvXWSd7EBC7WL56bzbzSaJeufTKKMbQspvO6uzDl
+	QyB3g5FY9oDY3JqIF/gxcEtPqRJ7YLoznFeYww0CKof7zR7uFfPmSrYSdFl8nouNrEv+
+	HquRjYPIQYT3piz2KbgdmumnoONKN/IA1fdE8bIboa4AvIJCXBaAIk5hNQ5RaNU5zciy
+	WoaBQj5P8DcVFAK4szlxHj6QtWAOACSLLDUNR1E+Yy2kV3SyLAu1fFRepnYyy/gRRWEs
+	uiAZgS9MQNdBFdIFo4xnkdWxmGmqugO61o38WVd8RZolqpd3VI/nqe8eBxljd7G6W7Yi
+	E3EZt5TGSrcaschAR6vL5+rSJOlOy3+BLtbYneG7PKJBR6Wouow067hLTAkViM87pfhq
+	3xdfWaBlsUQLnXiVTY7xETx3NBNV2QP5bYUzpmifOUo5kdJwdukbOs9W7MZpq1nPYnGz
+	t60Kn8E2QuVasfsZjO973Ej1srMwxQbt2VRdLJNNVPCGctXFlivhc7jPyj2Rj0H65ZcX
+	RI4tgDn4S4VShD91QpFKKIJJOn+48qJAiiSleJ5ytFgjM1/Evpyn5pHAogBW7kCdt9Y9
+	WN1NiTKk2iAV0YjECyYP1QrO87K6Xy5/rYDSQjWZDLxsd7kt/Q7hYb9yXMv3pTWPg2j1
+	jcnasZnFx2RdOTTlA+nu6suGpkSF11uKdoDyQ8QT8nxQzWwdj/KGcryKuvdeRTsR+zUy
+	FjM5XFjsYCBPW8lHRwxT7VVBEe+wme56uZDY6P4pPkFd/azy9BCPK8MO8QfjQd2tl20w
+	hcw2jU/UG4uFZaa+To3RVFnWHa3VbrqgiZlUEzd7LYK9Ne7hZMUXzltuw0pVUc+ibAvM
+	xhoM2NSXolTtM1Vr1ahEearn2vqGNLKI3+YvqqKb/NTmPXBStq1V0VUphKm6K13CMZxp
+	V7r6ULhYSdJPv9VEI9Ydo9EyPeY/lv4feMd81fVBKP+f4B1jD/9FlvgvsZszA3s0ixKd
+	yOunJX9onWs9wX8y8JkJSBXe4Rp7QuJV3U1XYdQHr6m2EvG6+tkAa+egpr1r85/lUaB/
+	fN/eif2fa54Q0yuhWXzqqEnpydnAPwvtnqMKZW5kc3RyZWFtCmVuZG9iagoyMCAwIG9i
+	agoxNjY2CmVuZG9iago5IDAgb2JqCjw8IC9UeXBlIC9Gb250IC9TdWJ0eXBlIC9UcnVl
+	VHlwZSAvQmFzZUZvbnQgL1FXVU5QSSsuU0ZOUy1Cb2xkIC9Gb250RGVzY3JpcHRvcgoy
+	MSAwIFIgL0VuY29kaW5nIC9NYWNSb21hbkVuY29kaW5nIC9GaXJzdENoYXIgMzIgL0xh
+	c3RDaGFyIDExNiAvV2lkdGhzIFsgMTk4CjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+	MCAwIDAgMCA2MDMgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAKMCAw
+	IDAgMCAwIDAgMCAwIDAgMCAwIDYxOCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+	MCAwIDU0NyAwIDAgNTk2IDU1NQowIDAgMCAyNDAgMCAwIDI0MiAwIDU3NiA1NzMgMCAw
+	IDM2NCA1MTUgMzU1IF0gPj4KZW5kb2JqCjIxIDAgb2JqCjw8IC9UeXBlIC9Gb250RGVz
+	Y3JpcHRvciAvRm9udE5hbWUgL1FXVU5QSSsuU0ZOUy1Cb2xkIC9GbGFncyAzMiAvRm9u
+	dEJCb3gKWy00MTcgLTI5OSAxMjQ3IDEwNzRdIC9JdGFsaWNBbmdsZSAwIC9Bc2NlbnQg
+	OTY3IC9EZXNjZW50IC0yMTEgL0NhcEhlaWdodAo3MDUgL1N0ZW1WIDE0NyAvWEhlaWdo
+	dCA1MjMgL1N0ZW1IIDEyMiAvQXZnV2lkdGggNTc1IC9NYXhXaWR0aCAxMjk1IC9Gb250
+	RmlsZTIKMjIgMCBSID4+CmVuZG9iagoyMiAwIG9iago8PCAvTGVuZ3RoIDIzIDAgUiAv
+	TGVuZ3RoMSAzMDY4IC9GaWx0ZXIgL0ZsYXRlRGVjb2RlID4+CnN0cmVhbQp4AeVWe3TO
+	ZRz//C7bO5dmdKgc1WKnnZOixJo1mjiakmtjupht72zYDE3NOEhESuKYOYWKIzpSuqrT
+	RSK6qXSlo6tSO5lbicP2fvo8z+/dXNI59XfPb8/le3u+z/f6rmzCxAI0wnR4SMgvyR0H
+	O5wlgLOlsHjSyAD2pgNxsUUFueEARq32lCIhAtjprD2pqKSsPApna88oLs2P0r3bBbct
+	yS2P3o/dghPH5pYUBPxNdmpPGld6Z1kUnqN9wCcLfnEwIsCY1Ykev0/p3oC/fxrgR/EZ
+	C0o9w3/+/vWLKLwVSMBDCGEkYhrEA25fFpsLNXPi3T9ymqUfgRdnabsqFr5gDrsmL8+r
+	XVu3tNGJOPlD/K4lW5nQ65EBQOM7atfWrm104oy7gQTdFHYq9bZDKPdzkeJvQao/HqnO
+	b8IfxEh/KXL8SqS61dovQid3J1oZmv8ZsgAWSpMTvbUpYp2XBSfiy7/piT7otC3+NOi/
+	AfUW/rOUZ0m+/BmMWLuFtMYpj8xojCZoak//5+Uca3wmMjEbJ5wCZ5vzufOz286d7L7o
+	dfDu8mZ73/rGl7EIR1qEloaWK79C8lwznIvzgB7O2QfCoVTg2LvAv9sjLaTjI81Dmh+f
+	sRv8Yc16utldlCtrN8SsVAxbRt8htC0VR6v5cwyP00EzHkvwK+4VA3gPEzkmsgfbMQPz
+	LWYcp7JzzMrjd4hzm8FgMr7DIlTiW53A5pZrMmfpq7B0Fyk84Pv+DfLEZdIuQf0ZvfUv
+	qD83vMUwGHIdX+Yqe8mtGIgfzYmbWMUR6IlpKMRFcjWc1hb/MK/m3WzPGB5zmkhVPgZh
+	MHINLXKYqUw2JwzHSrytvTfS0VVrLOL5PLfySW7nFcK3l56u0qLm5v6AYjyBYUaM3Wja
+	5LW40ULr+BJf5UEe4TCO5eMs4TPGy6myc4S83AqXWjuNlXZIqMHcM8816I+ZemdrU35O
+	ol6rRsrj3MsnOF1vq2Aa1XQ0xmALqtEHo/UODb7Dxdygr5JBILpiDA+IcDVuMxzMBPQY
+	1H0hXDpuFd5IVbARh/AWxnGSVyT4OY7nY1yu1TZI3KxA5+mbj36BTdV+mmIXh3b1NumW
+	+gDJugA6aZ+boRDnIw1epKtM6oYCJ4n7+CDXK5gLuFn8cPeYlfeyDcPM43mcYWBMRQ1W
+	YRZ2KPsSvFJxbOUSviZKLwU7vW4XN9N0TfOQiegLUwfDFNDDcqAGJ9KTYVkMRTMvG8sx
+	ioTJ1XkxNW4yggoOqSL/lICj3xA4c+UkT1caW0Y6SUEAAteJI0eVc73fK1o3VsiGNfCB
+	kckxMhpdMELvypPtGgGO3dmPM5nNL3hc9+41FLdQaTdKAdHgPFbVzRXuBbwOEybIQ0u1
+	bdQ0+VTtD5fvm+FiY7JVedLRZ8DuTViB/dG6ncIWzNHXglPEBlXvAazgKyqdrRZOUxLd
+	oG+0SXZp3aZUqtZhFk5gPZ7Bcdxn8RWM5SAOUFGZKodSokppOAaLlbQaSp7RSr9KjuLz
+	ga/cHX4PdTvjTdFNmphptlM8lSK/ZyIRqSaCPMQvlewrOIV7TvHSUMW3/nVHVdKOcinW
+	6lzER7Rvstd3YrVXIw+pdHs06ApcJKXB4TR89DlQmgPL8Cg2yJLrdIZitJ7vKePWqRUc
+	Vc9rjLvwqTrbXHxmeqM4ihXJPnyWbxhIvawvOqldDEfIOYe1bMZOLGcXLnSPcI7y+jt+
+	zf38UPd+o/UnK3MJMtBRNy0W/SmLGWpyVJoeUH0lo7l8chmS0BkXGqpe9Ka2ZbZlgU+z
+	SCa1Yq1bFZOMC6yXjV9PM9h4Wrh1kh4l2Spzj9rYG2qWndXe4oU/ymp5/HduDKoRygmm
+	KeOTqV97Kpvrtut9d1tJT1738BUj+mgx6ejmGueqTeGoVIelf45/ZUMNhU/WkLDmcVmq
+	oWkxm20WnxKWs7VHZDnnS6YnJihDTB+5RhC4Wy1qVUSyvqyum6BLO6ICC+RNQ53O1ixg
+	PhNY7u0TorcyJ6ivD7hSEf2Iq9R/1kTa8CpRD2rGOm1RhtWKbrZiuxElwoH383I4LPQ3
+	oSqmRj8hNqesd6VZ1meI2/Ct4Vv61pgzssVtulA3dG+gvq0+tVpY1zCo7t8P8ieATlkT
+	dPbUlnupEjOVTf2VTYPkrSEYiq/Q0nGbhkvLcvPzC8aW5ZfkGUFHFWM8aP7H0C/twKFZ
+	/Qb0ad9hcO9+g6+4vrQ4jL8AxGt+yQplbmRzdHJlYW0KZW5kb2JqCjIzIDAgb2JqCjE2
+	NjEKZW5kb2JqCjEgMCBvYmoKPDwgL1Byb2R1Y2VyIChtYWNPUyBWZXJzaW9uIDEwLjE1
+	LjYgXChCdWlsZCAxOUc3M1wpIFF1YXJ0eiBQREZDb250ZXh0KSAvQ3JlYXRpb25EYXRl
+	CihEOjIwMjAwODExMTczNDEwWjAwJzAwJykgL01vZERhdGUgKEQ6MjAyMDA4MTExNzM0
+	MTBaMDAnMDAnKSA+PgplbmRvYmoKeHJlZgowIDI0CjAwMDAwMDAwMDAgNjU1MzUgZiAK
+	MDAwMDAxNzgwOSAwMDAwMCBuIAowMDAwMDA2MjAzIDAwMDAwIG4gCjAwMDAwMTI4NjIg
+	MDAwMDAgbiAKMDAwMDAwMDAyMiAwMDAwMCBuIAowMDAwMDA2MTgzIDAwMDAwIG4gCjAw
+	MDAwMDYzMDcgMDAwMDAgbiAKMDAwMDAwOTI5OCAwMDAwMCBuIAowMDAwMDEyODI2IDAw
+	MDAwIG4gCjAwMDAwMTU0MTYgMDAwMDAgbiAKMDAwMDAxMzAwOSAwMDAwMCBuIAowMDAw
+	MDA2NDY4IDAwMDAwIG4gCjAwMDAwMDY1MTUgMDAwMDAgbiAKMDAwMDAwNjU2MiAwMDAw
+	MCBuIAowMDAwMDA5Mjc3IDAwMDAwIG4gCjAwMDAwMDkzMzQgMDAwMDAgbiAKMDAwMDAx
+	MjgwNSAwMDAwMCBuIAowMDAwMDEyOTQ1IDAwMDAwIG4gCjAwMDAwMTMzODUgMDAwMDAg
+	biAKMDAwMDAxMzYzOSAwMDAwMCBuIAowMDAwMDE1Mzk1IDAwMDAwIG4gCjAwMDAwMTU3
+	ODQgMDAwMDAgbiAKMDAwMDAxNjAzNyAwMDAwMCBuIAowMDAwMDE3Nzg4IDAwMDAwIG4g
+	CnRyYWlsZXIKPDwgL1NpemUgMjQgL1Jvb3QgMTcgMCBSIC9JbmZvIDEgMCBSIC9JRCBb
+	IDxkMzAyMzQyYWMwYmVhNGYzYmEwMDRlZTU2NWNlMjNmYT4KPGQzMDIzNDJhYzBiZWE0
+	ZjNiYTAwNGVlNTY1Y2UyM2ZhPiBdID4+CnN0YXJ0eHJlZgoxNzk3MwolJUVPRgo=
+	</data>
+	<key>Separate preview panel open</key>
+	<false/>
+	<key>Separate preview panel rect</key>
+	<string>{{314, 185}, {859, 501}}</string>
+	<key>Version</key>
+	<string>2.3.2</string>
+</dict>
+</plist>

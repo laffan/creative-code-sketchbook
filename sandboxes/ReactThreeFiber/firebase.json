@@ -1,6 +1,7 @@
 {
   "hosting": {
-    "public": "build",
+    "site": "ccs-sandbox-r3f",
+    "public": "dist",
     "ignore": [
       "firebase.json",
       "**/.*",

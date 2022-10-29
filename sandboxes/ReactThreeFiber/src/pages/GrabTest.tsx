@@ -1,6 +1,5 @@
 import * as React from "react";
 import * as THREE from "three";
-import * as ReactDOM from "react-dom/client";
 import {
   VRButton,
   XR,
@@ -89,4 +88,4 @@ function App() {
   );
 }
 
-ReactDOM.createRoot(document.getElementById("root")!).render(<App />);
+export default App;

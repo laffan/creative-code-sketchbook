@@ -1,7 +1,28 @@
 .Home {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 
+  // padding: 30px;
+  ul {
+    padding: 30px;
+
+  }
+
+  li {
+    list-style: none;
+    margin-bottom: 30px;
+  }
   li a {
-    padding: 50px;
+    padding: 30px;
+    background: black;
+    color: white;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
     border: 1px solid #000;
+
+    &:hover {
+      color: gold;
+    }
   }
 }

@@ -61,7 +61,7 @@ function HitTestExample() {
   return <Box ref={boxRef} args={[0.1, 0.1, 0.1]} />;
 }
 
-function App() {
+function GrabTest() {
   return (
     <>
       <VRButton />
@@ -88,4 +88,4 @@ function App() {
   );
 }
 
-export default App;
+export default GrabTest;

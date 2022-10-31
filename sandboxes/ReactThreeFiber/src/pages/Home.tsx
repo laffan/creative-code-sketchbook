@@ -6,6 +6,9 @@ export default function Home () {
         <li>
           <a href="/grab-test">Grab Test</a>
         </li>
+        <li>
+          <a href="/touch-grid">Touch Grid</a>
+        </li>
       </ul>
     </div>
   )

@@ -9,6 +9,9 @@ export default function Home () {
         <li>
           <a href="/touch-grid">Touch Grid</a>
         </li>
+        <li>
+          <a href="/Suprematism">Genuary - Suprematism</a>
+        </li>
       </ul>
     </div>
   )

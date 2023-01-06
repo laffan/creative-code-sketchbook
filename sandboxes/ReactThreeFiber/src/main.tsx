@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import Home from "./pages/Home";
 import GrabTest from "./pages/GrabTest";
 import TouchGrid from "./pages/TouchGrid";
+import Suprematism from "./pages/Suprematism";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/touch-grid",
     element: <TouchGrid/>,
+  },
+  {
+    path: "/suprematism",
+    element: <Suprematism/>,
   },
 ]);
 

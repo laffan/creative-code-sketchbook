@@ -12,6 +12,12 @@ export default function Home () {
         <li>
           <a href="/Suprematism">Genuary - Suprematism</a>
         </li>
+        <li>
+          <a href="/blendertest">Blender Test</a>
+        </li>
+        <li>
+          <a href="/iceworld">Ice World</a>
+        </li>
       </ul>
     </div>
   )

@@ -4,6 +4,8 @@ import Home from "./pages/Home";
 import GrabTest from "./pages/GrabTest";
 import TouchGrid from "./pages/TouchGrid";
 import Suprematism from "./pages/Suprematism";
+import BlenderTest from "./pages/BlenderTest";
+import IceWorld from "./pages/IceWorld";
 import {
   createBrowserRouter,
   RouterProvider,
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: "/suprematism",
     element: <Suprematism/>,
+  },
+  {
+    path: "/blendertest",
+    element: <BlenderTest/>,
+  },
+  {
+    path: "/iceworld",
+    element: <IceWorld/>,
   },
 ]);
 
